@@ -1,0 +1,77 @@
+body{
+     
+	 background: url(photo/pic123.jpg);
+	 background-size: cover;
+	 background-position: center;
+     font:1em/1.5 sans-serif;
+}
+ 
+ h1{
+	 text-align: center;
+	 font-size: 50px;
+	 color: black;
+ }
+ 
+ form{
+	 margin: 20px auto;
+	 width: 320px;
+	 color: black;
+ }
+ 
+ input{
+	 padding:10px;
+	 font-size: inherit;
+ }
+ 
+ input[type="text"],[type="email"],[type="password"]{
+	 display:block;
+	 margin-bottom: 25px;
+	 width: 100%;
+	 border: 2px;
+	 background: #FAF6D9;
+ }
+ 
+ 
+ 
+ input[type="radio"]{
+	 margin: 0 10px 25px 18px; 
+	 
+ }
+  input [type="radio"]:first-child {
+	 margin-left: 0;
+	  
+ }
+
+ 
+ input[type="submit"]{
+	 
+	 width: 344px;
+	 height: 45px;
+	 border: none;
+	 background: red;
+	 color: white;
+	 
+ }
+ 
+  input[type="submit"]:focus{
+	 
+	 width: 344px;
+	 height: 45px;
+	 border: solid steelblue;
+	 background: white;
+	 color: steelblue;
+	 
+ }
+ 
+ inpute:focus {
+	 
+	 background: white;
+	 
+ }
+ 
+ input[type="radio"]:checked + label{
+	 
+	 font-weight: bold;
+	 font-size: 18px;  
+ }
+ 
